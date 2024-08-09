@@ -15,27 +15,39 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Exploración de <em>mousses</em> y gelatinas en la pastelería.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Aplicar las técnicas fundamentales en la preparación de <em>mousses</em> y gelatinas, desarrollando habilidades prácticas en la elaboración de diversos postres semifríos.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Qué ingredientes son comunes en la preparación de <em>mousses</em>?',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Solo claras de huevo',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Harina y mantequilla',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crema de leche, claras de huevo, y azúcar',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solo yemas de huevo',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +55,283 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Cuál es el ingrediente más importante para la elaboración del batido esponjoso?',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Harina',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Huevo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Azúcar',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sal',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál es el propósito principal de la gelatina sin sabor en los <em>mousses</em>?',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dar color',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Añadir dulzura',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Proporcionar consistencia y estabilidad ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aromatizar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué tipo de gelatina se utiliza comúnmente para cubrir frutas en decoraciones? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Gelatina con sabor',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Gelatina sin sabor',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Gelatina de frutas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Gelatina de leche',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es el primer paso en la preparación de un <em>mousse</em> de mango?',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mezclar crema chantilly',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Llevar el jugo de mango con azúcar a ebullición',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Preparar gelatina con sabor',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tamizar la harina',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto: '¿Cuál es el proceso de preparación del batido esponjoso? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mezclar harina y agua ',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Batir huevos, azúcar y sal, luego incorporar harina y hornear ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cocer la mezcla de harina y azúcar',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Enfriar y mezclar con frutas ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué tipo de <em>mousse</em> incluye la preparación de un puré antes de mezclar todos los ingredientes? ',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: '<em>Mousse</em> de chocolate',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '<em>Mousse</em> de manzana',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '<em>Mousse</em> de fresa',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '<em>Mousse</em> de mango',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto: '¿Qué equipo es esencial para preparar un batido esponjoso? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Licuadora',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Batidora',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Microondas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Prensa de frutas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál es una característica distintiva de la bavaroise de maracuyá? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'No lleva gelatina ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Se elabora con pulpa de maracuyá pasteurizada ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Se cocina en el horno ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No lleva crema de leche ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es la diferencia principal entre una gelatina con sabor y una gelatina sin sabor? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La gelatina con sabor es más cara ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La gelatina sin sabor no puede ser utilizada en <em>mousses</em>',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+                'La gelatina con sabor contiene colorantes y saborizantes, mientras que la gelatina sin sabor se utiliza principalmente para dar consistencia ',
               esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+                'La gelatina sin sabor es más dulce que la gelatina con sabor ',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado:

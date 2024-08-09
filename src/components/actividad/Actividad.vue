@@ -5,12 +5,8 @@
         <img src="@/assets/componentes/icon-actividad.svg" alt="" />
       </div>
       <div class="col ">
-        <h2 class="titulo-tercero mb-0">
-          {{ cuestionario.titulo }}
-        </h2>
-        <p class="mb-0">
-          {{ cuestionario.introduccion }}
-        </p>
+        <h2 class="titulo-tercero mb-0" v-html="cuestionario.titulo"></h2>
+        <p class="mb-0" v-html="cuestionario.introduccion"></p>
       </div>
     </div>
     <div class="tarjeta tarjeta--lightest-gray p-4 p-md-5">
