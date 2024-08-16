@@ -45,7 +45,7 @@
                   div Azúcar corriente: 40 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div Crema chantilly: 150 gr
+                  div Crema #[em chantilly]: 150 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
                   div Gelatina sin sabor: 5 gr
@@ -96,7 +96,7 @@
         .col.ps-2(style="place-self:center;")
           h3.mb-0.pe-5 #[strong(style="color:#F7C3EC;") Proceso] de elaboración
 
-    p(data-aos="fade-left") A continuación, se detalla el proceso de elaboración de este mousse.
+    p(data-aos="fade-left") A continuación, se detalla el proceso de elaboración de este #[em mousse].
 
     .cont_1_3.mt-4.pt-4.pb-5
       .tarjeta.p-4(style="background-color:#FEF8FC;")
@@ -117,8 +117,8 @@
                 img(src='@/assets/curso/tema2/5.png')
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h5 Preparar crema chantilly
-              p Prepare crema chantilly. 
+              h5 Preparar crema #[em chantilly]
+              p Prepare crema #[em chantilly]. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/6.png')
@@ -132,7 +132,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5  Mezclar jarabe de mango y crema
-              p Mezcle con una espátula el almíbar o jarabe de mango con la crema chantilly. 
+              p Mezcle con una espátula el almíbar o jarabe de mango con la crema #[em chantilly]. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/8.png')
@@ -167,7 +167,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Verter gelatina sobre #[em mousse]
-              p Cuando esto haya sucedido, vierta sobre el mousse la gelatina con sabor cuando esta comience a gelificar. 
+              p Cuando esto haya sucedido, vierta sobre el #[em mousse] la gelatina con sabor cuando esta comience a gelificar. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/13.png')
@@ -209,7 +209,7 @@
                   div Azúcar corriente: 40 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div Crema chantilly: 150 gr
+                  div Crema #[em chantilly]: 150 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
                   div Gelatina sin sabor: 5 gr
@@ -287,8 +287,8 @@
                 img(src='@/assets/curso/tema2/18.png')
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h5 Preparar crema chantilly 
-              p Prepare crema chantilly. 
+              h5 Preparar crema #[em chantilly] 
+              p Prepare crema #[em chantilly]. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/19.png')
@@ -323,14 +323,14 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Colocar #[em mousse] en molde 
-              p Coloque una parte de este mousse sobre el molde forrado.
+              p Coloque una parte de este #[em mousse] sobre el molde forrado.
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/24.png')
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Capas alternadas
-              p Esparza encima una capa de batido esponjoso preparado en el paso 6, coloque de nuevo otra capa de mousse. Repita esta operación una vez más, terminando con una capa de mousse y empareje bien. 
+              p Esparza encima una capa de batido esponjoso preparado en el paso 6, coloque de nuevo otra capa de #[em mousse]. Repita esta operación una vez más, terminando con una capa de #[em mousse] y empareje bien. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/25.png')
@@ -383,7 +383,7 @@
                   div Cobertura de chocolate: 100 gr 
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div Crema chantilly: 160 gr 
+                  div Crema #[em chantilly]: 160 gr 
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
                   div Licor a elección (brandy): 2 ml 
@@ -568,7 +568,7 @@
               figure.m-auto.col-8.col-md-5.col-lg-12
                 img(src="@/assets/curso/tema2/38.png")
             .col-lg(data-aos="fade-up" style="place-self:center;")
-              p.text-white.mb-0 La preparación de este mousse implica varios pasos que aseguran una textura esponjosa y un sabor exquisito.
+              p.text-white.mb-0 La preparación de este #[em mousse] implica varios pasos que aseguran una textura esponjosa y un sabor exquisito.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src='@/assets/curso/tema2/39.png')
@@ -596,7 +596,7 @@
                   div Crema pastelera: 50 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div Crema chantilly: 100 gr
+                  div Crema #[em chantilly]: 100 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
                   div Clara de huevo: 20 gr
@@ -646,7 +646,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Pesar y medir ingredientes
-              p  Pese y mida los ingredientes necesarios para la preparación del mousse de manzana.
+              p  Pese y mida los ingredientes necesarios para la preparación del #[em mousse] de manzana.
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/42.png')
@@ -768,7 +768,7 @@
                     div Canela: 5 gr
                   li.d-flex
                     i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                    div Gelatina sin sabor: 2% sobre el peso total de lo anterior
+                    div Gelatina sin sabor: 2 % sobre el peso total de lo anterior
               .col-lg-5
                 figure.m-auto.col-10.col-md-8.col-lg-12
                   img(src='@/assets/curso/tema2/55.png')

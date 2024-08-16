@@ -154,7 +154,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mezclar crema chantilly',
+              texto: 'Mezclar crema <em>chantilly</em>',
               esCorrecta: false,
             },
             {
@@ -271,7 +271,7 @@ export default {
         {
           id: 9,
           texto:
-            '¿Cuál es una característica distintiva de la bavaroise de maracuyá? ',
+            '¿Cuál es una característica distintiva de la <em>bavaroise</em> de maracuyá? ',
           imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [

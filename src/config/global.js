@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Preparaciones de mousses para pastelería',
+    componenteFormativo: 'Preparaciones de <em>mousses</em> para pastelería',
     descripcionCurso:
-      'Este componente ofrece una guía detallada sobre la preparación de mousses y gelatinas, ingredientes esenciales en pastelería. Incluye recetas de mousses de mango, fresa, chocolate y manzana, además de indicaciones para gelatinas con y sin sabor. Proporciona pasos específicos, formulaciones y consejos para obtener resultados óptimos en cada preparación.',
+      'Este componente ofrece una guía detallada sobre la preparación de <em>mousses</em> y gelatinas, ingredientes esenciales en pastelería. Incluye recetas de <em>mousses</em> de mango, fresa, chocolate y manzana, además de indicaciones para gelatinas con y sin sabor. Proporciona pasos específicos, formulaciones y consejos para obtener resultados óptimos en cada preparación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -209,16 +209,16 @@ export default {
     {
       termino: 'Glucosa',
       significado:
-        'es una forma de azúcar que se encuentra en las frutas. unida a la fructosa forma la sacarosa o azúcar común. ',
+        'es una forma de azúcar que se encuentra en las frutas. Unida a la fructosa forma la sacarosa o azúcar común. ',
     },
     {
-      termino: 'Gr',
-      significado: 'gramos. unidad principal de medida para masas. ',
+      termino: 'G',
+      significado: 'gramos. Unidad principal de medida para masas. ',
     },
     {
       termino: 'Grasa',
       significado:
-        'son compuestos de carbono, hidrógeno y oxígeno sólidos a la temperatura ambiente. tienen como nombre genérico lípidos. son de origen vegetal y animal. ',
+        'son compuestos de carbono, hidrógeno y oxígeno sólidos a la temperatura ambiente. Tienen como nombre genérico lípidos. son de origen vegetal y animal. ',
     },
     {
       termino: 'Homogenizado',
@@ -237,11 +237,11 @@ export default {
     {
       termino: 'Lípidos',
       significado:
-        'son compuestos de estructura heterogénea muy abundantes en la naturaleza. las grasas y los aceites son los representantes más importantes. Están compuestos por hidrógeno, oxígeno y carbono y en ciertos casos pueden contener nitrógeno y fósforo. ',
+        'son compuestos de estructura heterogénea muy abundantes en la naturaleza. Las grasas y los aceites son los representantes más importantes. Están compuestos por hidrógeno, oxígeno y carbono y en ciertos casos pueden contener nitrógeno y fósforo. ',
     },
     {
       termino: 'ML',
-      significado: 'mililitros. unidad de medida para líquidos. ',
+      significado: 'mililitros. Unidad de medida para líquidos. ',
     },
     {
       termino: 'Papel <em>kraft</em>',
@@ -261,17 +261,17 @@ export default {
     {
       termino: 'Porcentaje',
       significado:
-        'es un número expresado como fracción de ciento. por ejemplo el 10% es igual a 10/100. La ecuación siguiente se utiliza para determinar el porcentaje de un ingrediente: peso del ingrediente x 100 / peso total del ingrediente base. ',
+        'es un número expresado como fracción de ciento. Por ejemplo el 10 % es igual a 10/100. La ecuación siguiente se utiliza para determinar el porcentaje de un ingrediente: peso del ingrediente x 100 / peso total del ingrediente base. ',
     },
     {
       termino: 'Producto precocinado',
       significado:
-        'producto al cual no se le cocina completamente sino que se deja en un 80% de su cocción para luego terminar de cocinarlo. ',
+        'producto al cual no se le cocina completamente sino que se deja en un 80 % de su cocción para luego terminar de cocinarlo. ',
     },
     {
       termino: 'Proteína',
       significado:
-        'son sustancias macromoleculares presentes en todos los organismos vivos. son el componente estructural en los tejidos animales como la piel, cartílago, uñas y músculo esquelético. ',
+        'son sustancias macromoleculares presentes en todos los organismos vivos. Son el componente estructural en los tejidos animales como la piel, cartílago, uñas y músculo esquelético. ',
     },
     {
       termino: 'Punto de nieve',
@@ -329,12 +329,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -343,9 +343,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Henry Oswaldo Acosta Romero',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquial',
         },
       ],
     },
@@ -353,23 +359,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -378,13 +374,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

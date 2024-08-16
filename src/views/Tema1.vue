@@ -71,10 +71,10 @@
                 div El ingrediente más importante para la elaboración del batido esponjoso es el huevo, pues su calidad influye directamente en el resultado final.
               li.d-flex
                 i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                div La harina utilizada debe ser harina pastelera, con un porcentaje de proteína máximo del 10% para obtener un producto suave y con buen volumen. Si se usa harina con mayor contenido proteico, debe mezclarse con fécula en una proporción de hasta el 50%.
+                div La harina utilizada debe ser harina pastelera, con un porcentaje de proteína máximo del 10 % para obtener un producto suave y con buen volumen. Si se usa harina con mayor contenido proteico, debe mezclarse con fécula en una proporción de hasta el 50 %.
               li.d-flex
                 i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                div El azúcar utilizado es la sacarosa o azúcar corriente refinado.
+                div El azúcar utilizado es la sacarosa o azúcar corriente refinada.
     
     .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
@@ -102,7 +102,7 @@
                   div Azúcar: 100 gr
                 li.d-flex
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div Sal: 0.5 gr
+                  div Sal: 0,5 gr
             .col-lg-5
               figure.m-auto.col-10.col-md-8.col-lg-12
                 img(src='@/assets/curso/tema1/10.png')
@@ -203,14 +203,14 @@
 
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        .cont_1_4.ps-lg-5.pe-lg-5.p-4.p-lg-0
+        .cont_1_4.ps-xl-5.pe-xl-5.p-4.p-xl-0
           .row
-            .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-down")
-              figure.m-auto.col-8.col-md-5.col-lg-12
+            .col-xl-auto.mb-4.mb-xl-0(data-aos="fade-down")
+              figure.m-auto.col-8.col-md-5.col-lg-4.col-xl-12
                 img(src="@/assets/curso/tema1/21.png")
-            .col-lg.mb-lg-5.ps-lg-4(data-aos="fade-up" style="place-self:end;")
+            .col-xl.mb-xl-5.ps-xl-4(data-aos="fade-up" style="place-self:end;")
               p.fw-bold(style="color:#F7C3EC;") ¿Para qué se usa?
-              p.text-white.mb-0 Ambos tipos de gelatina sirven en la preparación de postres instantáneos. En la pastelería se utiliza con varios propósitos, por ejemplo, para dar estabilidad a los postres como en el caso de los mousses y para cubrir frutas en las decoraciones.
+              p.text-white.mb-0 Ambos tipos de gelatina sirven en la preparación de postres instantáneos. En la pastelería se utiliza con varios propósitos, por ejemplo, para dar estabilidad a los postres como en el caso de los #[em mousses] y para cubrir frutas en las decoraciones.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src='@/assets/curso/tema1/22.png')
@@ -229,7 +229,7 @@
           figure.m-auto.col-10.col-md-6.col-lg-12
             img(src="@/assets/curso/tema1/24.png")
           h5.text-center.mt-3.mb-4 Gelatina sin sabor
-          p.mb-0 La gelatina sin sabor sirve para darle consistencia a algunas preparaciones, como por ejemplo la estabilidad de los mousses.
+          p.mb-0 La gelatina sin sabor sirve para darle consistencia a algunas preparaciones, como por ejemplo la estabilidad de los #[em mousses].
     
     .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
