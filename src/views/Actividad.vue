@@ -30,22 +30,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Solo claras de huevo',
+              texto: 'Solo claras de huevo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Harina y mantequilla',
+              texto: 'Harina y mantequilla.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crema de leche, claras de huevo, y azúcar',
+              texto: 'Crema de leche, claras de huevo, y azúcar.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Solo yemas de huevo',
+              texto: 'Solo yemas de huevo.',
               esCorrecta: false,
             },
           ],
@@ -61,22 +61,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Harina',
+              texto: 'Harina.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Huevo',
+              texto: 'Huevo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Azúcar',
+              texto: 'Azúcar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Sal',
+              texto: 'Sal.',
               esCorrecta: false,
             },
           ],
@@ -92,22 +92,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Dar color',
+              texto: 'Dar color.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Añadir dulzura',
+              texto: 'Añadir dulzura.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Proporcionar consistencia y estabilidad ',
+              texto: 'Proporcionar consistencia y estabilidad. ',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Aromatizar',
+              texto: 'Aromatizar.',
               esCorrecta: false,
             },
           ],
@@ -123,22 +123,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Gelatina con sabor',
+              texto: 'Gelatina con sabor.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Gelatina sin sabor',
+              texto: 'Gelatina sin sabor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Gelatina de frutas',
+              texto: 'Gelatina de frutas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Gelatina de leche',
+              texto: 'Gelatina de leche.',
               esCorrecta: false,
             },
           ],
@@ -154,22 +154,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mezclar crema <em>chantilly</em>',
+              texto: 'Mezclar crema <em>chantilly</em>..',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Llevar el jugo de mango con azúcar a ebullición',
+              texto: 'Llevar el jugo de mango con azúcar a ebullición..',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Preparar gelatina con sabor',
+              texto: 'Preparar gelatina con sabor..',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Tamizar la harina',
+              texto: 'Tamizar la harina..',
               esCorrecta: false,
             },
           ],
@@ -184,23 +184,23 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mezclar harina y agua ',
+              texto: 'Mezclar harina y agua. ',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Batir huevos, azúcar y sal, luego incorporar harina y hornear ',
+                'Batir huevos, azúcar y sal, luego incorporar harina y hornear. ',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Cocer la mezcla de harina y azúcar',
+              texto: 'Cocer la mezcla de harina y azúcar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Enfriar y mezclar con frutas ',
+              texto: 'Enfriar y mezclar con frutas. ',
               esCorrecta: false,
             },
           ],
@@ -216,22 +216,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '<em>Mousse</em> de chocolate',
+              texto: '<em>Mousse</em> de chocolate.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Mousse</em> de manzana',
+              texto: '<em>Mousse</em> de manzana.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: '<em>Mousse</em> de fresa',
+              texto: '<em>Mousse</em> de fresa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Mousse</em> de mango',
+              texto: '<em>Mousse</em> de mango.',
               esCorrecta: false,
             },
           ],
@@ -246,22 +246,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Licuadora',
+              texto: 'Licuadora.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Batidora',
+              texto: 'Batidora.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Microondas',
+              texto: 'Microondas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Prensa de frutas',
+              texto: 'Prensa de frutas.',
               esCorrecta: false,
             },
           ],
@@ -277,22 +277,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'No lleva gelatina ',
+              texto: 'No lleva gelatina. ',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Se elabora con pulpa de maracuyá pasteurizada ',
+              texto: 'Se elabora con pulpa de maracuyá pasteurizada. ',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Se cocina en el horno ',
+              texto: 'Se cocina en el horno. ',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'No lleva crema de leche ',
+              texto: 'No lleva crema de leche. ',
               esCorrecta: false,
             },
           ],
@@ -308,30 +308,30 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'La gelatina con sabor es más cara ',
+              texto: 'La gelatina con sabor es más cara. ',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'La gelatina sin sabor no puede ser utilizada en <em>mousses</em>',
+                'La gelatina sin sabor no puede ser utilizada en <em>mousses</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'La gelatina con sabor contiene colorantes y saborizantes, mientras que la gelatina sin sabor se utiliza principalmente para dar consistencia ',
+                'La gelatina con sabor contiene colorantes y saborizantes, mientras que la gelatina sin sabor se utiliza principalmente para dar consistencia. ',
               esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'La gelatina sin sabor es más dulce que la gelatina con sabor ',
+                'La gelatina sin sabor es más dulce que la gelatina con sabor. ',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente....',
         },
       ],
       mensaje_final_aprobado:
