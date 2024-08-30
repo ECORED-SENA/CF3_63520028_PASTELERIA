@@ -375,7 +375,7 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Storyboard e Ilustración',
+          cargo: '<em>Storyboard</em> e Ilustración',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
