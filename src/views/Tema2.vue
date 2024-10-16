@@ -132,7 +132,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5  Mezclar jarabe de mango y crema
-              p Mezcle con una espátula el almíbar o jarabe de mango con la crema #[em chantilly]. 
+              p Mezcle con una espátula, el almíbar o jarabe de mango con la crema #[em chantilly]. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/8.png')
@@ -316,7 +316,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Mezclar crema y claras 
-              p Mezcle el paso 3 con el paso 4 homogenizando bien, luego agregue las claras y finalmente adicione la gelatina sin sabor previamente preparada, mezclando muy bien. 
+              p Mezcle el paso 3 con el paso 4 homogeneizando bien, luego agregue las claras y finalmente adicione la gelatina sin sabor previamente preparada, mezclando muy bien. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/23.png')

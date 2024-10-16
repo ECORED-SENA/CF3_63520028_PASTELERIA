@@ -59,27 +59,27 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: '<em>mousse</em> de mango',
+            titulo: '<em>Mousse</em> de mango',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: '<em>mousse</em> de fresa',
+            titulo: '<em>Mousse</em> de fresa',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: '<em>mousse</em> de chocolate',
+            titulo: '<em>Mousse</em> de chocolate',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: '<em>mousse</em> de manzana',
+            titulo: '<em>Mousse</em> de manzana',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: '<em>mousse</em> de maracuyá',
+            titulo: '<em>Bavaroise</em> de maracuyá',
             hash: 't_2_5',
           },
         ],
@@ -133,40 +133,41 @@ export default {
   complementario: [
     {
       tema: '<em>Mousses</em>',
-      referencia: 'SENA (2011). Pasteleria 4 HD480 [Archivo de video] Youtube.',
+      referencia:
+        'SENA (2011). Pastelería cap 4 HD480 [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=oYqMKChLrC4  ',
     },
     {
       tema: '<em>Mousse</em> de mango',
-      referencia: 'SENA (2011). Pasteleria cap02. [Archivo de video] Youtube.',
+      referencia: 'SENA (2011). Pasteleria cap02. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9N7rKCXJzrQ  ',
     },
     {
       tema: '<em>Mousse</em> de fresa',
       referencia:
-        'Cocina Para Todos (2015). Cómo hacer Mousse de Fresa muy Fácil! [Archivo de video] Youtube.',
+        'Cocina Para Todos (2015). Cómo hacer Mousse de Fresa muy Fácil! [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=nGATsJzMoBY  ',
     },
     {
       tema: '<em>Mousse</em> de chocolate',
       referencia:
-        'Juliana Postres (2023). MOUSSE DE CHOCOLATE CON 4 Ingredientes [Archivo de video] Youtube.',
+        'Juliana Postres (2023). MOUSSE DE CHOCOLATE CON 4 Ingredientes [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6-aj4gLZWzI  ',
     },
     {
       tema: '<em>Mousse</em> de manzana',
-      referencia: 'SENA (2011). Pasteleria 3 HD480 [Archivo de video] Youtube.',
+      referencia: 'SENA (2011). Pasteleria 3 HD480 [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ktO4wGgJwQk  ',
     },
     {
       tema: '<em>Bavaroise</em> de maracuyá ',
       referencia:
-        'Juliana Postres (2023). MOUSSE DE MARACUYÁ - con 4 ingredientes [Archivo de video] Youtube. ',
+        'Juliana Postres (2023). MOUSSE DE MARACUYÁ - con 4 ingredientes [Archivo de video] YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=tUOkLKYnycE',
     },

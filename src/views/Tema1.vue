@@ -210,7 +210,7 @@
                 img(src="@/assets/curso/tema1/21.png")
             .col-xl.mb-xl-5.ps-xl-4(data-aos="fade-up" style="place-self:end;")
               p.fw-bold(style="color:#F7C3EC;") ¿Para qué se usa?
-              p.text-white.mb-0 Ambos tipos de gelatina sirven en la preparación de postres instantáneos. En la pastelería se utiliza con varios propósitos, por ejemplo, para dar estabilidad a los postres como en el caso de los #[em mousses] y para cubrir frutas en las decoraciones.
+              p.text-white.mb-0 Ambos tipos de gelatina sirven en la preparación de postres instantáneos. En la pastelería se utiliza con varios propósitos, por ejemplo, para dar estabilidad a los postres, como en el caso de los #[em mousses] y para cubrir frutas en las decoraciones.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src='@/assets/curso/tema1/22.png')

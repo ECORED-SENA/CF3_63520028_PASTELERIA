@@ -11,11 +11,24 @@
       </div>
       <div class="col-auto">
         <button
-          v-if="respuestasLength === preguntasCount"
+          v-if="
+            rtas.correctas !== preguntasCount &&
+              respuestasLength === preguntasCount
+          "
           class="boton btn-lg boton--b py-3 px-5"
           @click="$emit('reiniciar')"
         >
-          <span>Reiniciar</span>
+          <span>Volver a intentarlo</span>
+        </button>
+        <div v-else-if="rtas.correctas === preguntasCount" class="py-4"></div>
+        <button
+          v-else-if="respuestasLength === 9"
+          class="boton btn-lg boton--b py-3 px-4"
+          :class="{ 'boton--disabled': continuarDisabled }"
+          @click="$emit('continuar')"
+        >
+          <span>Verificar</span>
+          <i class="fas fa-arrow-right"></i>
         </button>
         <button
           v-else
@@ -51,10 +64,31 @@ export default {
       type: Number,
       default: 0,
     },
+    respuestas: {
+      type: Array,
+      required: true,
+    },
   },
   computed: {
     avanceWidth() {
       return `${((this.preguntaIndex + 1) / this.preguntasCount) * 100}%`
+    },
+    rtas() {
+      const respuestas = {
+        correctas: 0,
+        incorrectas: 0,
+        total: this.respuestas.length,
+        porcentaje: 0,
+      }
+      this.respuestas.forEach(r => {
+        if (r.esCorrecta) {
+          respuestas.correctas++
+        } else {
+          respuestas.incorrectas++
+        }
+      })
+      respuestas.porcentaje = (respuestas.correctas / respuestas.total) * 100
+      return respuestas
     },
   },
 }
